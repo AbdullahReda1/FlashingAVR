@@ -1,5 +1,7 @@
+# Design folder "proteus files", and config.xlsx file
 /Design/
 *.xlsx
+
 # Prerequisites
 *.d
 
