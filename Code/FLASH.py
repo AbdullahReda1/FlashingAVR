@@ -4,13 +4,14 @@ import os
 
 # Read Excel file to get client configurations
 
-wb = openpyxl.load_workbook(r'config.xlsx')
+wb    = openpyxl.load_workbook(r'config.xlsx')
 sheet = wb.active
 
 PORT = sheet['A2'].value
 PIN  = sheet['B2'].value
 DIR  = sheet['C2'].value
 VAL  = sheet['D2'].value
+
 
 # Write in file config.h 
 
